@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nombre": "lata de Quilmes", "precio": 380},
+    {"id": 2, "nombre": "lata de Stella", "precio": 420},
+    {"id": 3, "nombre": "lata de Andes", "precio": 400},
+    {"id": 4, "nombre": "lata de Patagonia", "precio": 450},
+    {"id": 5, "nombre": "lata de Budweiser", "precio": 380},
+    {"id": 6, "nombre": "lata de Heineken", "precio": 420}
+]

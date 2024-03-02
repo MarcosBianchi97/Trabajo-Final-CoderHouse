@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveceria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <h2>Bienvenidos a una tienda de cervezas</h2>
+
+    <p id="id-titulo">Vendemos variedades de cervezas</p>
+
+<div id = "cervezas">
+         <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Quilmes</p>
+            <p>Precio: $380</p>
+            <button class="agregar-carrito" data-id="1">Agregar al Carrito</button>
+            <img src="img/lata de quilmes.png">
+    </div>
+        <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Andes Rubia</p>
+            <p>Precio: $400</p>
+            <button class="agregar-carrito" data-id="2">Agregar al Carrito</button>
+            <img src="img/lata de andes rubia.png">
+    </div>
+        <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Budweiser</p>
+            <p>Precio: $380</p>
+            <button class="agregar-carrito" data-id="3">Agregar al Carrito</button>
+            <img src="img/lata de budweiser.png">
+    </div>
+        <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Heineken</p>
+            <p>Precio: $420</p>
+            <button class="agregar-carrito" data-id="4">Agregar al Carrito</button>
+            <img src="img/lata de heineken.png">
+    </div>
+        <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Patagonia</p>
+            <p>Precio: $450</p>
+            <button class ="agregar-carrito" data-id="5">Agregar al Carrito</button>
+            <img src="img/lata de patagonia weisse.png">
+    </div>
+        <div class = "cerveza">
+            <p class="nombres-cerveza">Nombre: Lata de Stella</p>
+            <p>Precio: $420</p>
+            <button class ="agregar-carrito" data-id="6">Agregar al Carrito</button>
+            <img src="img/lata de stella.png">
+    </div>
+</div>
+
+<div id="carrito">
+    <h3>Carrito de Compras</h3>
+    <ul id="lista-carrito"></ul>
+    <p>Total Efectivo: <span id="total-efectivo">$0.00</span></p>
+</div>
+
+<button id="confirmar-compra">Confirmar Compra</button>
+
+
+<footer>
+    <h4>Pagina De Marcos</h4>
+</footer>
+<script src="cervezas.json"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
+
